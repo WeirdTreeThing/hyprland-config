@@ -1,0 +1,86 @@
+@import "colors.css";
+
+* {
+    all: initial;
+    border: none;
+    font-family: FontAwesome, Roboto;
+    font-size: 16px;
+    border-radius: 10px;
+    padding: 2px;
+    margin: 1px;
+    color: @crust;
+}
+
+window#waybar {
+    background-color: @base;
+    transition-property: background-color;
+    transition-duration: .5s;
+}
+
+#window {
+    color: @text;
+}
+
+tooltip {
+  background: @base;
+  border: 1px solid rgba(100, 114, 125, 0.5);
+}
+
+tooltip label {
+  color: white;
+}
+
+#workspaces {
+    background-color: @blue;
+    font-size: 40px;
+    color: @base;
+}
+
+#workspaces button {
+    padding: 2px;
+}
+
+#workspaces button.active {
+    background-color: @overlay1;
+}
+
+#workspaces button.urgent {
+    background-color: @red;
+}
+
+#tray {
+    background-color: @peach;
+}
+
+#tray menu {
+    background-color: @base;
+    color: #ffffff;
+}
+
+#pulseaudio {
+    background-color: @red;
+}
+
+#custom-notification {
+    background-color: @blue;
+}
+
+#cpu {
+    background-color: @green;
+}
+
+#memory {
+    background-color: @yellow;
+}
+
+#network {
+    background-color: @teal;
+}
+
+#bluetooth {
+    background-color: @flamingo;
+}
+
+#clock {
+    background-color: @lavender;
+}
