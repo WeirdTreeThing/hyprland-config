@@ -6,11 +6,11 @@
     "spacing": 4, // Gaps between modules (4px)
     "margin-top": 10,
 
-    "modules-left": ["wlr/workspaces"],
+    "modules-left": ["hyprland/workspaces"],
     "modules-center": ["hyprland/window"],
     "modules-right": ["custom/notification", "tray", "pulseaudio", "cpu", "memory", "network", "bluetooth", "clock"],
 
-    "wlr/workspaces": {
+    "hyprland/workspaces": {
 	"format": " {name} ",
 	"active-only": false,
 	"all-outputs": false,
